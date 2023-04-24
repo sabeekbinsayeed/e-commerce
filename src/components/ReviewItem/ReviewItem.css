@@ -1,0 +1,38 @@
+.review-details-container {
+    display: flex;
+    margin-left: 17px;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+
+.review-item {
+    display: flex;
+    border: 2px solid slategray;
+    width: 571px;
+    margin: 0 auto;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.review-item p {
+    margin: 0px;
+}
+
+.delete-button {
+
+    background-color: pink;
+    border-radius: 20px;
+}
+
+.delete-button:hover {
+
+    background-color: rgb(172, 28, 52);
+    cursor: pointer
+}
+
+.delete-icon {
+
+    font-size: 30px;
+}
